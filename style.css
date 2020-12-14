@@ -1,0 +1,43 @@
+html,
+body {
+   height: 100%;
+   width: 100%;
+   margin: 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url(/drums.gif);
+   background-position: center;
+}
+
+.keys {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.key {
+   border: 1vw solid black;
+   padding: 0.5vw;
+   margin: 0.5vw;
+   text-align: center;
+   height: calc(5rem + 1vw);
+   width: calc(5rem + 1vw);
+   flex-wrap: wrap;
+   font-size: small;
+   font: bolder;
+   cursor: pointer;
+}
+
+.key p {
+   color: gold;
+}
+
+.key h1 {
+   color: white;
+}
+
+.active {
+   border: 2vw solid goldenrod;
+}
